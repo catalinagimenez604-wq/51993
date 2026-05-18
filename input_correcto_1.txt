@@ -1,0 +1,14 @@
+según 1 hacer {
+    caso 1: {
+        imprimir("Elegiste la opción uno");
+        salir;
+    }
+    caso 2: {
+        imprimir("Elegiste la opción dos");
+        salir;
+    }
+    defecto: {
+        imprimir("Opción no reconocida");
+        salir;
+    }
+} finsegún

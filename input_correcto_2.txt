@@ -1,0 +1,18 @@
+según "rojo" hacer {
+    caso "rojo": {
+        imprimir("Color primario: rojo");
+        salir;
+    }
+    caso "verde": {
+        imprimir("Color primario: verde");
+        salir;
+    }
+    caso "azul": {
+        imprimir("Color primario: azul");
+        salir;
+    }
+    defecto: {
+        imprimir("No es un color primario");
+        salir;
+    }
+} finsegún

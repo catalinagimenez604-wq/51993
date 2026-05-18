@@ -1,0 +1,18 @@
+{
+  "name": "antlr-calculator-project",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Analizador léxico-sintáctico del lenguaje según/hacer/finsegún con ANTLR4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "antlr4": "java -jar antlr/antlr-4.13.2-complete.jar -Dlanguage=JavaScript -listener -visitor -o ./generated Segun.g4",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}

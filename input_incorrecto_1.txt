@@ -1,0 +1,6 @@
+según 1 hacer {
+    caso 1: {
+        imprimir("Hola");
+        salir;
+    }
+}

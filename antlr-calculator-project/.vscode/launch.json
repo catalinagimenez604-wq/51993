@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug ANTLR4 grammar",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "input_correcto_1.txt",
+            "grammar": "Segun.g4",
+            "startRule": "programa",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+según 2 hacer {
+    caso 2: {
+        imprimir("Falta punto y coma")
+        salir;
+    }
+} finsegún
